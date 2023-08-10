@@ -31,8 +31,10 @@ public class Aplicativo {
 		System.out.println("Informe o lado C do traingulo Y: ");
 		Y.ladoC =  entrada.nextDouble();
 		double areaDeY = Y.area();
-		System.out.printf("Área: %.2f",areaDeY);
+		System.out.printf("Área: %.2f ",areaDeY);
 		
+		X.triangulolados();
+		Y.triangulolados();
 		entrada.close();
 		
 		
