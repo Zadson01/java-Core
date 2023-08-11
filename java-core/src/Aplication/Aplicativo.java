@@ -9,6 +9,7 @@ public class Aplicativo {
 	public static void main(String[] args) {
 		double pX;
 		double areaX;
+		
     Scanner entrada = new Scanner (System.in);
 		Triangulo X = new Triangulo();
 		Triangulo Y = new Triangulo();
